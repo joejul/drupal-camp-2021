@@ -1,0 +1,22 @@
+uuid: 184df8a9-119c-4f65-8e9a-c9793fd0e6b8
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - camp_theme_demo
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: camp_theme_demo_messages
+theme: camp_theme_demo
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 3aa90637-6eb5-4601-a43e-30b8ffc089f4
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - camp_theme_demo
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: camp_theme_demo_content
+theme: camp_theme_demo
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

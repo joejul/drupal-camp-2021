@@ -1,0 +1,31 @@
+/* simple css stylesheet */
+h1, h2 {
+  font-family: fantasy;
+  color: #cd3f4d;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+header img {
+  width: 110px;
+}
+
+main {
+  background: #fff;
+  border-top: 10px solid #3257a8;
+  padding: 20px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+footer {
+  background: #3257a8;
+  margin: 10px auto;
+  padding: 35px;
+  display: flex;
+  justify-content: center;
+}

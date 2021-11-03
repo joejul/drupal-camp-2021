@@ -5,3 +5,8 @@ core:
       css/styles.css: { }
   js:
     js/script.js: { }
+
+dummy_lib:
+  css:
+    theme:
+      css/invalid.css: { }
